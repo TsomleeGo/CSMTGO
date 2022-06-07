@@ -1,29 +1,109 @@
-<!DOCTYPE html>
-<html>
-<meta charset="utf-8" />
 
-<head>
-<style>
-     h1 {
-         color: darkolivegreen;
-         font-size: 40px;
-         }
+<main>
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <style>
+          .container {
+              max-width: 1200px;
+              display: block;
+              margin: auto;
+          }
+        h1 {
+          color: red;
+          font-size: 105px;
+        }
+    
         img {
-            display: inline-block;
-            width: 20%;
+          display: inline-block;
+          width: 45%;
         }
+    
         p {
-        display: inline-block;
-        padding: 10px 10px 10px 30px;
+          display: inline-block;
+          padding: 10px 0 20px 20px;
         }
-     </style>
-</head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<body>
-<h1>HORNET BATTALION CADET COMMAND SERGEANT MAJOR TSOMLEE GO</h1>
-<h2>East Central High School </h2>
-</body>
-</html>
-<img src="PH FLAG.jpg">
-<p>Welcome to the Hornet Battalion Command Sergeant Major Page</p>
+    
+        .block {
+          display: block;
+          font-size: 45px;
+          padding: 45px;
+        }
+    
+        .row2 img {
+          float: right;
+        }
+    
+        .row2 p {
+          color: green;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .columns .col {
+            display: inline-block;
+            width: 33%;
+            position: relative;
+        }
+        .columns .col p {
+            position: absolute;
+            padding: 0 15px;
+            bottom: 5%;
+            left: 5%;
+            colors: white;
+            font-weight: bold;
+        }
+        img {
+            display: bloc;
+            margin: auto;
+            max-width: 100%;
+        }
+        .feature {
+            position: relative;
+        }
+        .feature .text-wrap {
+            position: absolute;
+            right: 10%
+            top: 50%
+            width: 40%
+            transforms: translateY(-50 );
+        }
+        @media  screen and (max-width: 767px) {
+            .columns .col{
+                display: block;
+                width: 100%;
+            }
+        }
+      </style>
+    </head>
+    
+    
+    <body>
+      <main>
+        <div class="container">
+          <h1>Hello</h1>
+          <section class="feature">
+            <a href="https://www.ecisd.net"><img src="Hornet.png"></a>
+            <div class="text-wrap">
+            <p>This is my school's mascot.</p>
+          </section>
+          <section class="columns">
+            <div class="col">
+              <a href="https://www.ecisd.net/Page/918"><img src="jrotc.png"></a>
+              <p>The Program that helped me become me.</p>
+            </div>
+            <div class="col">
+              <a href="https://www.state.gov/countries-areas/philippines/"><img src="PH FLAG.jpg"></a>
+              <p>The Philippines. My home country.</p>
+            </div>
+            <div class="col">
+              <a href="https://www.ecisd.net/Page/13160"><img src="Trio.jpg"></a>
+              <p>The Program thats helping me through college.</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </body>
+    
+    </html>
