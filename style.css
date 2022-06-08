@@ -1,0 +1,68 @@
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+h1 {
+color: red;
+font-size: 105px;
+}
+
+img {
+display: inline-block;
+width: 45%;
+}
+
+p {
+display: inline-block;
+padding: 10px 0 20px 20px;
+}
+
+.block {
+display: block;
+font-size: 45px;
+padding: 45px;
+}
+
+.row2 img {
+float: right;
+}
+
+.row2 p {
+color: green;
+font-family: Arial, Helvetica, sans-serif;
+}
+.columns .col {
+  display: inline-block;
+  width: 33%;
+  position: relative;
+}
+.columns .col p {
+  position: absolute;
+  padding: 0 15px;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  font-weight: bold;
+}
+img {
+  display: bloc;
+  margin: auto;
+  max-width: 100%;
+}
+.feature {
+  position: relative;
+}
+.feature .text-wrap {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  width: 40%;
+  transform: translateY(-50 );
+}
+@media  screen and (max-width: 767px) {
+  .columns .col{
+      display: block;
+      width: 100%;
+  }
+}
