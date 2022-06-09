@@ -9,7 +9,7 @@ h2 {
 }
 
 .hero {
-    background-image: url(CGEV1.jpg);
+    background-image: url(1.21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -26,4 +26,14 @@ h2 {
 .hero h1,
 .hero h2 {
     margin: auto;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 0 0%;
 }
