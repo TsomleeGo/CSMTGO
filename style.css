@@ -9,12 +9,12 @@ h2 {
 }
 
 .container {
-    max-width: 30000px;
+    max-width: 3000000px;
     display: block;
     margin: auto;   
-    background-color:darkgoldenrod; 
-     font-size: 20px;
-
+    background-image: url(000001.jpg);
+    background-size: cover;
+    height: 15vh;
 }
 
 header .container {
@@ -28,19 +28,23 @@ header .container {
     margin: 5%
 }
 
-
+.hero {
+    background-image: url(csm tab.png);
+}
 
 .hero {
     background-image: url(CGEV1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     position: relative;
-    top: -43px;
-    background-image:  
+    top: 5px;
+    background-image: 
         border: 5px solid #555;
-      
+
+        
 }
+
 
 .hero .text {
     position: absolute;
@@ -66,3 +70,5 @@ p {
 .col {
     flex: 1 0 0%;
 }
+
+
